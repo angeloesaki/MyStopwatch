@@ -1,0 +1,63 @@
+body {
+  /* 等幅フォント */
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  background: #091921;
+  color: #fff;
+}
+
+.container {
+  margin: 50px auto;
+  width: 400px;
+  height: 200px;
+  border-radius: 10%;
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+#timer {
+  margin: 10px auto;
+  background: #0c2835;
+  border-radius: 50%;
+  width: 400px;
+  height: 120px;
+  line-height: 120px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.button {
+  border-radius: 50%;
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  /* background: #0c2835; */
+  font-weight: bold;
+  cursor: pointer;
+
+  /* テキストが選択されるのを防ぐ */
+  user-select: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+  color: #111;
+}
+
+.inactive {
+  opacity: 0.4;
+}
+
+#start {
+  background: #74ff3b;
+}
+
+#stop {
+  background: #ff3077;
+}
+
+#reset {
+  background: #03b1ff;
+}
